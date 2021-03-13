@@ -1,6 +1,14 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    ["Démarrez"]: ['start/about', 'start/starting-guide', 'start/whats-next'],
+    ["Services"]: [
+      {
+        ["Minecraft"]: ["services/minecraft/start", "services/minecraft/tutorials"]
+      },
+      {
+        ["Garry's Mod"]: ["services/garrysmod/start", "services/garrysmod/tutorials"]
+      }
+    ],
+    ["Annexes"]: ['various/tutorials'],
   },
 };
