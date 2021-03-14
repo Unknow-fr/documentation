@@ -1,7 +1,6 @@
 ---
 id: doc1
 title: Qui sommes nous?
-slug: /
 ---
 
 ---
